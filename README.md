@@ -29,28 +29,13 @@ This project applies several state-of-the-art tree-based machine learning models
     - Visualized top features for Random Forest (and available in other models)
     - Code designed for extensibility to other tree-based models
 
-## Results
 
-=== Model Comparison Table ===
-            Model  Accuracy  Precision   Recall  F1-score
-    random_forest  0.973684   1.000000 0.928571  0.962963
-gradient_boosting  0.964912   1.000000 0.904762  0.950000
-         lightgbm  0.964912   1.000000 0.904762  0.950000
-          xgboost  0.956140   1.000000 0.880952  0.936709
-    decision_tree  0.929825   0.904762 0.904762  0.904762
 
-(**Replace the “...” with your actual numbers!**)
 
 - Random Forest and gradient boosting models demonstrated the highest performance on most metrics.
 - Feature importance visualization highlighted the top diagnostic predictors.
 
-## Next Steps (Optional/Future Work)
 
-- ROC and precision-recall curve plotting for all models
-- Hyperparameter optimization (GridSearchCV/RandomizedSearchCV)
-- Advanced explainability methods (e.g., SHAP, LIME)
-- Model deployment (pickle/joblib for API or app use)
-- Error analysis and reporting
 
 ---
 
